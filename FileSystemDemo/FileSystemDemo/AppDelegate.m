@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//  [self testAccessDocumentsFolder];
+  [self testAccessDocumentsFolder];
   [self testAccessDocumentsFolderSecondWay];
   [self testSaveStringToDisk];
   [self testReadTextFileFromDisk];
